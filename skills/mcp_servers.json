@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "example-jira": {
+      "command": "uvx",
+      "args": ["mcp-server-jira@latest"],
+      "env": {
+        "JIRA_URL": "https://your-domain.atlassian.net",
+        "JIRA_TOKEN": "${JIRA_API_TOKEN}"
+      },
+      "disabled": true,
+      "autoApprove": []
+    }
+  }
+}
